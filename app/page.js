@@ -1,3 +1,4 @@
+import Login10 from "./components/Login10";
 import Login3 from "./components/Login3";
 import Login4 from "./components/Login4";
 import Login5 from "./components/Login5";
@@ -10,7 +11,7 @@ import LoginForm from "./components/LoginForm";
 export default function Home() {
   return (
     <div className="font-sans">
-      <Login9 />
+      <Login10 />
     </div>
   );
 }
