@@ -7,23 +7,27 @@ const Login10 = () => {
       <div className="flex flex-row items-center justify-center">
         {/* Register */}
 
-        <div className="bg-[#DC5B11] w-[40vw] h-[100vh] px-20 flex flex-col items-left justify-center">
-          <h1 className="text-[60px] font-[700] text-white">Welcome Back</h1>
-          <p className="text-[20px] font-[700] text-white opacity-70 max-w-[362px] text-left mt-14">
-            Sign in with your credentionals to enjoy our uninterupted services
-          </p>
+        <div className="bg-[#DC5B11] w-[40vw] h-[100vh] px-20 flex flex-col items-start justify-center">
+          <div className="max-w-[487px]">
+            <h1 className="text-[60px] font-[700] text-white">Welcome Back</h1>
+            <p className="text-[20px] font-[700] text-white opacity-70 max-w-[362px] text-left mt-14">
+              Sign in with your credentials to enjoy our uninterrupted services
+            </p>
 
-          <p className="text-[20px] font-[600] text-black opacity-40 max-w-[362px] text-left mt-11">
-            Dont have an account yet ?{" "}
-          </p>
+            <p className="text-[20px] font-[600] text-black opacity-40 max-w-[362px] text-left mt-11">
+              Don't have an account yet?{" "}
+            </p>
 
-          <div className=" mt-16 mx-auto">
-            <Image src="/image_4.png" width={152} height={139} />
+            <div className="flex justify-center mt-16">
+              <Image src="/image_4.png" width={152} height={139} />
+            </div>
+
+            <div className="flex justify-center mt-14">
+              <button className=" w-[400px] border border-white rounded-full h-[60px] text-white font-[700] text-[20px]">
+                CLICK HERE TO SIGN UP
+              </button>
+            </div>
           </div>
-
-          <button className=" mt-14 mx-auto w-[400px] border border-white rounded-full h-[60px] text-white font-[700] text-[20px]">
-            CLICK HERE TO SIGN UP
-          </button>
         </div>
 
         {/* Login Form */}
